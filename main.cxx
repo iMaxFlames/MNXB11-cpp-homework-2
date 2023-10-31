@@ -12,7 +12,7 @@ int main(int, char *argv[]) {
 
   if (cmdl[{"-i", "--input-file"}]) {
     std::string FileName{argv[2]};
-  //  std::cout << FileName << std::endl;
+    // std::cout << FileName << std::endl;
   }
 
   // std::cout << "I am just a code template, you need to implement the "
