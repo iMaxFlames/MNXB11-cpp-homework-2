@@ -9,5 +9,9 @@
 3. Copy the 'argh.h' header file into the external/include/  directory.
 
 ## How to build the CSV parser library
-1. First 'cd' into the dependencies/ directory and clone the [csv repo](https://github.com/ben-strasser/fast-cpp-csv-parser).
+1. First 'cd' into the dependencies/ directory and clone the [csv repo](https://github.com/ben-strasser/fast-cpp-csv-parser.gits).
 2. Copy the 'csv.h' header file into the external/include/ directory.
+
+## How to implement a dates library
+1. First 'cd' into the dependencies/ directory and clone the [date repo](https://github.com/HowardHinnant/date.git).
+2. Copy the 'date.h' header file into the external/include/ directory.
