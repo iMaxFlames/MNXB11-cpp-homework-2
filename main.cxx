@@ -7,8 +7,8 @@ int main(int, char *argv[]) {
   argh::parser cmdl(argv);
 
   if (cmdl[{ "-h", "--help" }]) {
-    std::cout << "CLI in use is argh!, below is the following HTTPS/ for the github repository:" << std::endl;
-    std::cout << "https://github.com/adishavit/argh.git" << std::endl;
+    std::cout << "How do test the code:" << std::endl;
+    std::cout << "Try the test CSV by running: './main -i 'datasets/testdata.csv'." << std::endl;
   }
 
   if (cmdl[{"-i", "--input-file"}]) {

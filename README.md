@@ -5,5 +5,9 @@
    - build/
    - external/include/
    - dependencies/
-1. Then `cd` into the dependencies/ directory and clone the [argh repo](https://github.com/adishavit/argh.git).
-1. Finally copy the `argh.h` header file into the external/include/  directory.
+2. Then 'cd' into the dependencies/ directory and clone the [argh repo](https://github.com/adishavit/argh.git).
+3. Copy the 'argh.h' header file into the external/include/  directory.
+
+## How to build the CSV parser library
+1. First 'cd' into the dependencies/ directory and clone the [csv repo](https://github.com/ben-strasser/fast-cpp-csv-parser).
+2. Copy the 'csv.h' header file into the external/include/ directory.
